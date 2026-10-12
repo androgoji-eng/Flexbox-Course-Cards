@@ -1,0 +1,76 @@
+
+
+body {
+    background-color: rgb(247, 244, 244)
+    padding: 20px;
+}
+
+.navbar {
+    background-color: rgb(0, 0, 226)
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: rgb(10, 110, 27);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+
+
+.courses-container {
+    display: flex;
+    flex-direction: center;     
+    justify-content: center;
+    align-items: stretch;     
+    gap: 20px;                  
+    flex-wrap: wrap;            
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.card {
+    background-color: green
+    padding: 25px;
+    border: 2px solid rgb(0,0,0);   
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.card h2 {
+    font-size: 20px;
+    color: black;
+    background-color:rgb(80, 126, 167);
+    margin-bottom:rgb(21, 224, 157)
+}
+
+
+.card button {
+    background-color: #4316e6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+
+
